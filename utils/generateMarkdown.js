@@ -1,16 +1,16 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if (license = "MIT") {
+  if (license === "MIT") {
     return `MIT 📖`
   }
-  if (license = "GPL") {
+  if (license === "GPL") {
     return `GPL ✏️`
   }
-  if (license = "AFL") {
+  if (license === "AFL") {
     return `AFL 📚`
   }
-  if (license = "ISC") {
+  if (license === "ISC") {
     return `ISC 📍`
   } else { 
     return ""
@@ -34,9 +34,11 @@ function renderLicenseSection(license) {
     return (
       ` ## License
       
-        Licensed under ${renderLicenseBadge(data.license)} 
-        ${renderLicenseLink(data.license)} `
+        Licensed under ${renderLicenseBadge(license)} 
+        ${renderLicenseLink(license)} `
     )
+  } else {
+    return ""
   }
 }
 
@@ -70,7 +72,7 @@ ${renderLicenseSection(data.license)}
 ## Questions 
 For any additional questions, please reach out to me through either of the following:
 - Email: ${data.email}
-- GitHub: ${data.github}
+- GitHub: ${data.GitHub}
 `;
 }
 
