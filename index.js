@@ -33,7 +33,17 @@ const questions = [
        type: "list",
        message: "Please select the licensing option best suited to your project.",
        name: "license",
-       choices: ["MIT","GPL","AFL","Apache-2.0","BSL-1.0","ISC","None"]
+       choices: ["MIT","GPL","AFL","ISC","None"]
+    },
+    {
+        type: "input",
+        message: "What is your GitHub username?",
+        name: "GitHub"
+    },
+    {
+        type: "input",
+        message: "What is your email?",
+        name: "email"
     }
 ];
 
