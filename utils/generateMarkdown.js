@@ -32,7 +32,10 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license !== "None") {
     return (
-      `Licensed under ${data.license}`
+      ` ## License
+      
+        Licensed under ${renderLicenseBadge(data.license)} 
+        ${renderLicenseLink(data.license)} `
     )
   }
 }
@@ -46,6 +49,28 @@ ${renderLicenseBadge(data.license)}
 ${data.description}
 
 ## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [Creadits](#credits)
+* [License](#license)
+* [Questions](#questions)
+
+## Installations
+The installation steps required for this application are: 
+${data.installation}
+
+## Usage 
+${data.usage}
+
+## Contributors
+${data.credits}
+
+${renderLicenseSection(data.license)}
+
+## Questions 
+For any additional questions, please reach out to me through either of the following:
+- Email: ${data.email}
+- GitHub: ${data.github}
 `;
 }
 
