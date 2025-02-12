@@ -54,7 +54,7 @@ ${data.description}
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
-* [Creadits](#credits)
+* [Contributors](#contributors)
 * [License](#license)
 * [Questions](#questions)
 
@@ -64,6 +64,10 @@ ${data.installation}
 
 ## Usage 
 ${data.usage}
+
+## Test
+The following command(s) should will allow users to test:
+${data.test}
 
 ## Contributors
 ${data.credits}
