@@ -35,7 +35,7 @@ const questions = [
        type: "list",
        message: "Please select the licensing option best suited to your project.",
        name: "license",
-       choices: ["MIT","GPL","AFL","ISC","None"]
+       choices: ["MIT","GPL","Boost","ISC","None"]
     },
     {
         type: "input",

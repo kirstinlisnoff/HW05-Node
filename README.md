@@ -1,5 +1,5 @@
 # asdf
-MIT 📖
+[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
 
 ## Description 
 asdf
@@ -19,11 +19,11 @@ asdf
 asdf
 
 ## Contributors
-adsf
+asdf
 
  ## License
       
-        Licensed under MIT 📖 
+        Licensed under [![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt) 
         https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository 
 
 ## Questions 
