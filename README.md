@@ -20,6 +20,8 @@ Run npm i in the command line to install necessary packages.
 The application will be used to build READMEs by entering input into the command line.
 
 ## Walkthrough Video
+https://github.com/user-attachments/assets/2ca0f7e2-4b46-4ef4-a964-fc293d5abe90
+
 
 
 ## Test
