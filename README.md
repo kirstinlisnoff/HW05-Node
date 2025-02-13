@@ -1,32 +1,36 @@
-# asdf
-[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+# Professional-README-Generator
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description 
-asdf
+This repository was created to provide a professional README generator for its users. The project allows for users to utilize the command-line and respond to specific prompts that will then be collected to automatically generate a professional README document for their repo. 
 
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
-* [Creadits](#credits)
+* [Contributors](#contributors)
 * [License](#license)
 * [Questions](#questions)
 
 ## Installations
 The installation steps required for this application are: 
-asdf
+Run npm i in the command line to install necessary packages.
 
 ## Usage 
-asdf
+The application will be used to build READMEs by entering input into the command line.
+
+## Test
+The following command(s) should will allow users to test:
+npm test
 
 ## Contributors
-asdf
+Kirstin Lisnoff
 
  ## License
       
-        Licensed under [![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt) 
+        Licensed under [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
         https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository 
 
 ## Questions 
 For any additional questions, please reach out to me through either of the following:
-- Email: asdf
-- GitHub: asdf
+- Email: kirstinlisnoff5@gmail.com
+- GitHub: kirstinlisnoff5
