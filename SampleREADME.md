@@ -10,7 +10,6 @@ This repository was created to provide a professional README generator for its u
 * [Contributors](#contributors)
 * [License](#license)
 * [Questions](#questions)
-* [Walkthrough Video](#walkthrough)
 
 ## Installations
 The installation steps required for this application are: 
@@ -18,9 +17,6 @@ Run npm i in the command line to install necessary packages.
 
 ## Usage 
 The application will be used to build READMEs by entering input into the command line.
-
-## Walkthrough Video
-
 
 ## Test
 The following command(s) should will allow users to test:
